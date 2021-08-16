@@ -1,0 +1,201 @@
+body{
+    background-image:linear-gradient(50deg, #2b1b04 0%, #060111 74%);
+}
+
+#body-header{
+    height: 20vh;
+    opacity: 0.;
+    background-image:linear-gradient(50deg, #e78b09 0%, #521aca 74%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+
+#body-name{
+    font-size:3.5rem;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Fredoka One', cursive;
+}
+form {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px 0;
+    background-image: linear-gradient(-90deg, rgb(209, 166, 80), rgb(46, 197, 197));
+    border-radius: 99rem;
+}
+
+#dog-breeds {
+    padding: 10px;
+    font-size: 1.4rem;
+    width: 30%;
+    min-width: 200px;
+}
+
+#dog-breeds option {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form label {
+    padding: 5px 0;
+}
+
+form input {
+    padding: 5px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 30px 2px grey;
+}
+
+#flex {
+   display: flex;
+    margin-top: 50px;
+    height: 400px;
+}
+
+#breed-image {
+    width: 60%;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#breed-image img {
+    max-height: 400px;
+    max-width: 100%;
+    min-height: 300px;
+    border: 10px;
+}
+
+#next {
+    width: 40%;    
+}
+
+#next a {
+    font-size: 1.5rem;
+    color: grey;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    padding: 10px 20px;
+}
+
+#next a:hover {
+    box-shadow: 0px 0px 10px lightblue;
+    text-shadow: 0px 0px 5px lightblue;
+    color: white;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#breed-name:hover{
+    border-bottom: 1px solid grey;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 00.8em;
+}
+
+.portfolio-details{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+
+.portfolio-anchortag a{
+    color: rgb(250, 250, 250);
+    font-size: 1em;
+}
+#contact {
+    background-image: linear-gradient(50deg, #b5dd46 0%, #4208c9 74%);
+    color: white;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+    text-align: center;
+    
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+    transition: 2s;
+}
+
+#contact h1:hover{
+    border-bottom: 2px solid rgb(14, 13, 13);
+}
