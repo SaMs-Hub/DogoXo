@@ -3,14 +3,10 @@ body{
 }
 
 #body-header{
-    height: 20vh;
-    opacity: 0.;
-    background-image:linear-gradient(50deg, #e78b09 0%, #521aca 74%);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 1.2rem;
     text-align: center;
+    margin-top: -20px;
+    
+    border-bottom: 0.002px solid grey;
 }
 
 #body-name{
@@ -178,7 +174,7 @@ section{
     font-size: 1em;
 }
 #contact {
-    background-image: linear-gradient(50deg, #b5dd46 0%, #4208c9 74%);
+    
     color: white;
     padding-bottom: 40px;
     background-size: cover;
